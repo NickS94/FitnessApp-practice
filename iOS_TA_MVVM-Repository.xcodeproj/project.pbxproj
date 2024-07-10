@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46BA21552B8F6A1400EA6CF3 /* iOS_TA_MVVM_RepositoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21542B8F6A1400EA6CF3 /* iOS_TA_MVVM_RepositoryApp.swift */; };
+		46BA21572B8F6A1400EA6CF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21562B8F6A1400EA6CF3 /* ContentView.swift */; };
+		46BA21592B8F6A1500EA6CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BA21582B8F6A1500EA6CF3 /* Assets.xcassets */; };
+		46BA215C2B8F6A1500EA6CF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BA215B2B8F6A1500EA6CF3 /* Preview Assets.xcassets */; };
+		46BA21682B8F6B9100EA6CF3 /* FitnessProgramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21672B8F6B9100EA6CF3 /* FitnessProgramsView.swift */; };
+		46BA216A2B8F6BA300EA6CF3 /* FitnessProgramsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21692B8F6BA300EA6CF3 /* FitnessProgramsViewModel.swift */; };
+		46BA216D2B8F6BE200EA6CF3 /* FitnessProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA216C2B8F6BE200EA6CF3 /* FitnessProgram.swift */; };
+		46BA216F2B8F6C2700EA6CF3 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA216E2B8F6C2700EA6CF3 /* Workout.swift */; };
+		46BA21712B8F6CC700EA6CF3 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21702B8F6CC700EA6CF3 /* Repository.swift */; };
+		46BA21732B8F759B00EA6CF3 /* MyWorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21722B8F759B00EA6CF3 /* MyWorkoutsView.swift */; };
+		46BA21752B8F75AC00EA6CF3 /* MyWorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21742B8F75AC00EA6CF3 /* MyWorkoutsViewModel.swift */; };
+		46BA21782B8F772600EA6CF3 /* FitnessProgramDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21772B8F772600EA6CF3 /* FitnessProgramDetailViewModel.swift */; };
+		46BA217A2B8F773000EA6CF3 /* FitnessProgramDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA21792B8F773000EA6CF3 /* FitnessProgramDetailView.swift */; };
+		46BA217C2B90921100EA6CF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46BA217B2B90921100EA6CF3 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46BA21512B8F6A1400EA6CF3 /* iOS_TA_MVVM-Repository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS_TA_MVVM-Repository.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BA21542B8F6A1400EA6CF3 /* iOS_TA_MVVM_RepositoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TA_MVVM_RepositoryApp.swift; sourceTree = "<group>"; };
+		46BA21562B8F6A1400EA6CF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46BA21582B8F6A1500EA6CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46BA215B2B8F6A1500EA6CF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46BA21672B8F6B9100EA6CF3 /* FitnessProgramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProgramsView.swift; sourceTree = "<group>"; };
+		46BA21692B8F6BA300EA6CF3 /* FitnessProgramsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProgramsViewModel.swift; sourceTree = "<group>"; };
+		46BA216C2B8F6BE200EA6CF3 /* FitnessProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProgram.swift; sourceTree = "<group>"; };
+		46BA216E2B8F6C2700EA6CF3 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		46BA21702B8F6CC700EA6CF3 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		46BA21722B8F759B00EA6CF3 /* MyWorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsView.swift; sourceTree = "<group>"; };
+		46BA21742B8F75AC00EA6CF3 /* MyWorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsViewModel.swift; sourceTree = "<group>"; };
+		46BA21772B8F772600EA6CF3 /* FitnessProgramDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProgramDetailViewModel.swift; sourceTree = "<group>"; };
+		46BA21792B8F773000EA6CF3 /* FitnessProgramDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProgramDetailView.swift; sourceTree = "<group>"; };
+		46BA217B2B90921100EA6CF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46BA214E2B8F6A1400EA6CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BA21482B8F6A1400EA6CF3 = {
+			isa = PBXGroup;
+			children = (
+				46BA217B2B90921100EA6CF3 /* README.md */,
+				46BA21532B8F6A1400EA6CF3 /* iOS_TA_MVVM-Repository */,
+				46BA21522B8F6A1400EA6CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46BA21522B8F6A1400EA6CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BA21512B8F6A1400EA6CF3 /* iOS_TA_MVVM-Repository.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46BA21532B8F6A1400EA6CF3 /* iOS_TA_MVVM-Repository */ = {
+			isa = PBXGroup;
+			children = (
+				46BA21542B8F6A1400EA6CF3 /* iOS_TA_MVVM_RepositoryApp.swift */,
+				46BA21562B8F6A1400EA6CF3 /* ContentView.swift */,
+				46BA216B2B8F6BB200EA6CF3 /* Models */,
+				46BA21642B8F6A4300EA6CF3 /* Features */,
+				46BA21582B8F6A1500EA6CF3 /* Assets.xcassets */,
+				46BA215A2B8F6A1500EA6CF3 /* Preview Content */,
+			);
+			path = "iOS_TA_MVVM-Repository";
+			sourceTree = "<group>";
+		};
+		46BA215A2B8F6A1500EA6CF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46BA215B2B8F6A1500EA6CF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46BA21642B8F6A4300EA6CF3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				46BA21652B8F6A5B00EA6CF3 /* FitnessPrograms */,
+				46BA21762B8F76EF00EA6CF3 /* FitnessProgramDetail */,
+				46BA21662B8F6A6F00EA6CF3 /* MyWorkouts */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		46BA21652B8F6A5B00EA6CF3 /* FitnessPrograms */ = {
+			isa = PBXGroup;
+			children = (
+				46BA21672B8F6B9100EA6CF3 /* FitnessProgramsView.swift */,
+				46BA21692B8F6BA300EA6CF3 /* FitnessProgramsViewModel.swift */,
+			);
+			path = FitnessPrograms;
+			sourceTree = "<group>";
+		};
+		46BA21662B8F6A6F00EA6CF3 /* MyWorkouts */ = {
+			isa = PBXGroup;
+			children = (
+				46BA21722B8F759B00EA6CF3 /* MyWorkoutsView.swift */,
+				46BA21742B8F75AC00EA6CF3 /* MyWorkoutsViewModel.swift */,
+			);
+			path = MyWorkouts;
+			sourceTree = "<group>";
+		};
+		46BA216B2B8F6BB200EA6CF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46BA216C2B8F6BE200EA6CF3 /* FitnessProgram.swift */,
+				46BA216E2B8F6C2700EA6CF3 /* Workout.swift */,
+				46BA21702B8F6CC700EA6CF3 /* Repository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46BA21762B8F76EF00EA6CF3 /* FitnessProgramDetail */ = {
+			isa = PBXGroup;
+			children = (
+				46BA21792B8F773000EA6CF3 /* FitnessProgramDetailView.swift */,
+				46BA21772B8F772600EA6CF3 /* FitnessProgramDetailViewModel.swift */,
+			);
+			path = FitnessProgramDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46BA21502B8F6A1400EA6CF3 /* iOS_TA_MVVM-Repository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BA215F2B8F6A1500EA6CF3 /* Build configuration list for PBXNativeTarget "iOS_TA_MVVM-Repository" */;
+			buildPhases = (
+				46BA214D2B8F6A1400EA6CF3 /* Sources */,
+				46BA214E2B8F6A1400EA6CF3 /* Frameworks */,
+				46BA214F2B8F6A1400EA6CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS_TA_MVVM-Repository";
+			productName = "iOS_TA_MVVM-Repository";
+			productReference = 46BA21512B8F6A1400EA6CF3 /* iOS_TA_MVVM-Repository.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46BA21492B8F6A1400EA6CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					46BA21502B8F6A1400EA6CF3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 46BA214C2B8F6A1400EA6CF3 /* Build configuration list for PBXProject "iOS_TA_MVVM-Repository" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46BA21482B8F6A1400EA6CF3;
+			productRefGroup = 46BA21522B8F6A1400EA6CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BA21502B8F6A1400EA6CF3 /* iOS_TA_MVVM-Repository */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46BA214F2B8F6A1400EA6CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BA217C2B90921100EA6CF3 /* README.md in Resources */,
+				46BA215C2B8F6A1500EA6CF3 /* Preview Assets.xcassets in Resources */,
+				46BA21592B8F6A1500EA6CF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46BA214D2B8F6A1400EA6CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BA21712B8F6CC700EA6CF3 /* Repository.swift in Sources */,
+				46BA21572B8F6A1400EA6CF3 /* ContentView.swift in Sources */,
+				46BA21682B8F6B9100EA6CF3 /* FitnessProgramsView.swift in Sources */,
+				46BA216A2B8F6BA300EA6CF3 /* FitnessProgramsViewModel.swift in Sources */,
+				46BA216D2B8F6BE200EA6CF3 /* FitnessProgram.swift in Sources */,
+				46BA21782B8F772600EA6CF3 /* FitnessProgramDetailViewModel.swift in Sources */,
+				46BA217A2B8F773000EA6CF3 /* FitnessProgramDetailView.swift in Sources */,
+				46BA21752B8F75AC00EA6CF3 /* MyWorkoutsViewModel.swift in Sources */,
+				46BA21552B8F6A1400EA6CF3 /* iOS_TA_MVVM_RepositoryApp.swift in Sources */,
+				46BA21732B8F759B00EA6CF3 /* MyWorkoutsView.swift in Sources */,
+				46BA216F2B8F6C2700EA6CF3 /* Workout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46BA215D2B8F6A1500EA6CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46BA215E2B8F6A1500EA6CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BA21602B8F6A1500EA6CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_TA_MVVM-Repository/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.iOS-TA-MVVM-Repository";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46BA21612B8F6A1500EA6CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS_TA_MVVM-Repository/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.iOS-TA-MVVM-Repository";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46BA214C2B8F6A1400EA6CF3 /* Build configuration list for PBXProject "iOS_TA_MVVM-Repository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BA215D2B8F6A1500EA6CF3 /* Debug */,
+				46BA215E2B8F6A1500EA6CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BA215F2B8F6A1500EA6CF3 /* Build configuration list for PBXNativeTarget "iOS_TA_MVVM-Repository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BA21602B8F6A1500EA6CF3 /* Debug */,
+				46BA21612B8F6A1500EA6CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46BA21492B8F6A1400EA6CF3 /* Project object */;
+}
