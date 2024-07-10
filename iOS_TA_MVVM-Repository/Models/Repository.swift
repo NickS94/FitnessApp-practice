@@ -9,4 +9,32 @@ import Foundation
 
 class Repository {
     
+    static let sharedInstance = Repository()
+    
+     private var workoutsList:[Workout] = []
+    
+    
+    func getFitnessPrograms()->[FitnessProgram]{
+        return FitnessProgram.defaults
+    }
+    
+    
+    func getWorkouts()-> [Workout]{
+        
+        return workoutsList
+    }
+    
+    
+    func addWorkout(workout:Workout){
+        
+        workoutsList.append(workout)
+    }
+    
+    
+    func removeWorkout(workout:Workout){
+        
+        workoutsList.removeAll(where:{$0.id == workout.id})
+    }
+    
+    
 }

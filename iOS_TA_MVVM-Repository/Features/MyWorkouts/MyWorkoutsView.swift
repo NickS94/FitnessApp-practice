@@ -9,15 +9,19 @@ import SwiftUI
 
 struct MyWorkoutsView: View {
     
+    
+    @StateObject var myWorkoutsViewModel = MyWorkoutsViewModel()
+    
+    
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 30) {
                     // TODO: Daten aus dem ViewModel anzeigen
-                    ForEach(FitnessProgram.defaults.first!.workouts) { workout in
+                    ForEach(myWorkoutsViewModel.workouts) { workout in
                         HStack {
                             Button {
-                                // TODO: Workout "abschließen"
+                                myWorkoutsViewModel.removeWorkout(workout: workout)
                             } label: {
                                 Image(systemName: "checkmark.circle.fill")
                                     .resizable()
@@ -34,14 +38,19 @@ struct MyWorkoutsView: View {
                     }
                     
                     VStack {
-                        Text("Total time:")
-                        // TODO: Gesamtdauer anzeigen
-                        Text("45 minutes")
+                        if !myWorkoutsViewModel.isEmpty{
+                            Text("Total time:")
+                            Text(String(myWorkoutsViewModel.totalWorkoutTime()))
+                        }
                     }
                 }
                 .padding()
             }
             .navigationTitle("My Workouts")
+            .onAppear{
+                myWorkoutsViewModel.fetchWorkouts()
+            }
+ 
         }
     }
 }

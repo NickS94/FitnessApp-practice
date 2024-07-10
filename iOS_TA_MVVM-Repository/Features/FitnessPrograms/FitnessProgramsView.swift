@@ -9,12 +9,16 @@ import SwiftUI
 
 struct FitnessProgramsView: View {
     
+    @StateObject var programsViewModel = FitnessProgramsViewModel()
+    @StateObject var detailsViewModel = FitnessProgramDetailViewModel()
+    
+    
     var body: some View {
         NavigationStack {
             // TODO: Verwende hier die Daten aus dem ViewModel
-            List(FitnessProgram.defaults) { program in
+            List(programsViewModel.fitnessPrograms) { program in
                 NavigationLink {
-                    FitnessProgramDetailView(program: program)
+                    FitnessProgramDetailView(detailsViewModel: detailsViewModel, program: program)
                 } label: {
                     Text(program.title)
                 }

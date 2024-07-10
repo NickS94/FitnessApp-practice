@@ -9,6 +9,9 @@ import SwiftUI
 
 struct FitnessProgramDetailView: View {
     
+    @ObservedObject var detailsViewModel : FitnessProgramDetailViewModel
+    @State var alreadyExist = false
+    
     let program: FitnessProgram
     
     var body: some View {
@@ -22,7 +25,12 @@ struct FitnessProgramDetailView: View {
                 ForEach(program.workouts) { workout in
                     HStack {
                         Button {
-                            // TODO: Workout hinzufügen
+                            if detailsViewModel.isAlreadyAdded(workout: workout){
+                                alreadyExist = true
+                            }else{
+                                detailsViewModel.addWorkout(workout: workout)
+                            }
+                            
                         } label: {
                             Image(systemName: "plus.circle.fill")
                                 .resizable()
@@ -39,20 +47,28 @@ struct FitnessProgramDetailView: View {
                 }
                 
                 Button {
-                    // TODO: Alle Workouts des Programms hinzufügen
+                    detailsViewModel.addAllPrograms(programs: program)
                 } label: {
                     Text("Add Everything")
                 }
                 .buttonStyle(.borderedProminent)
             }
             .padding()
+            
         }
+        .alert("Workout is added!", isPresented:$detailsViewModel.isAdded , actions: {
+        })
+        .alert("All workouts added", isPresented: $detailsViewModel.allAdded, actions: {
+        })
+        .alert("Is alredy exist", isPresented: $alreadyExist, actions: {
+        })
         .navigationTitle(program.title)
+       
     }
 }
 
 #Preview {
     NavigationStack {
-        FitnessProgramDetailView(program: FitnessProgram.defaults[2])
+        FitnessProgramDetailView(detailsViewModel: FitnessProgramDetailViewModel(), program: FitnessProgram.defaults[2])
     }
 }

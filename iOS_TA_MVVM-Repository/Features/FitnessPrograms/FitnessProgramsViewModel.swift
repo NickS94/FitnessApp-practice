@@ -7,6 +7,18 @@
 
 import Foundation
 
-class FitnessProgramsViewModel {
+class FitnessProgramsViewModel:ObservableObject {
     
+    @Published var fitnessPrograms:[FitnessProgram] = []
+    
+    private var repository = Repository.sharedInstance
+    
+    
+    init() {
+        fetchFitnessPrograms()
+    }
+    
+    func fetchFitnessPrograms(){
+        fitnessPrograms = repository.getFitnessPrograms()
+    }
 }
